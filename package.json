@@ -12,6 +12,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "1.2.3",
     "@angular/animations": "^5.0.0",
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
@@ -31,7 +32,12 @@
     "method-override": "~2.3.5"
   },
   "scripts": {
-    "postinstall": "ng build --aot -prod"
+    "postinstall": "ng build --aot -prod",
+    "start": "node server.js"
+},
+"engines": {
+  "node": "8.9.4",
+  "npm": "4.6.1"
 },
   "devDependencies": {
     "@angular/cli": "1.6.3",
