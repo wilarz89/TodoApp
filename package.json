@@ -35,10 +35,7 @@
     "postinstall": "ng build --aot -prod",
     "start": "node server.js"
 },
-"engines": {
-  "node": "8.9.4",
-  "npm": "4.6.1"
-},
+
   "devDependencies": {
     "@angular/cli": "1.6.3",
     "@angular/compiler-cli": "^5.0.0",
@@ -60,5 +57,8 @@
     "tslint": "~5.7.0",
     "typescript": "~2.4.2"
   },
-
+  "engines": {
+    "node": "8.9.4",
+    "npm": "4.6.1"
+  },
 }
