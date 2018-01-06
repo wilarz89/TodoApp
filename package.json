@@ -11,6 +11,7 @@
     "e2e": "ng e2e"
   },
   "private": true,
+
   "dependencies": {
     "@angular/cli": "1.2.3",
     "@angular/animations": "^5.0.0",
@@ -31,10 +32,17 @@
     "body-parser": "~1.14.2",
     "method-override": "~2.3.5"
   },
+  
   "scripts": {
     "postinstall": "ng build --aot -prod",
     "start": "node server.js"
 },
+
+  "engines": {
+    "node": "8.9.4",
+    "npm": "4.6.1"
+  },
+
 
   "devDependencies": {
     "@angular/cli": "1.6.3",
@@ -57,8 +65,5 @@
     "tslint": "~5.7.0",
     "typescript": "~2.4.2"
   },
-  "engines": {
-    "node": "8.9.4",
-    "npm": "4.6.1"
-  },
+
 }
